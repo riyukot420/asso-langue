@@ -11351,13 +11351,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   opacity: 1;
 }
 
-.fa-stack {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.fa-stack:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(255, 200, 0, 0.7);
-}
+.fa-stack {}
+
 
 .btn-primary {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
@@ -11365,4 +11360,21 @@ section#contact form#contactForm :-ms-input-placeholder {
 .btn-primary:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(255, 200, 0, 0.5);
+}
+
+/* Idle animation for service icons */
+@keyframes idleBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.fa-stack-1x {
+  animation: idleBounce 2.5s ease-in-out infinite;
+}
+.fa-stack {
+  animation: idleBounce 2.5s ease-in-out infinite;
 }
