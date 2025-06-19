@@ -10892,7 +10892,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
+  color: #F4C542;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -11132,7 +11132,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: #F4C542;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11377,4 +11377,20 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .fa-stack {
   animation: idleBounce 2.5s ease-in-out infinite;
+}
+
+.bg-light {
+  background-color: #fffdf5 !important; /* un blanc légèrement chaud si tu veux harmoniser */
+}
+
+.navbar {
+  background-color: #4a90e2 !important; /* jaune en fond de nav */
+}
+
+footer.footer {
+  background-color: #4A90E2;
+}
+
+.btn {
+  background-color: #f4c542;
 }
