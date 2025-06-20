@@ -10908,7 +10908,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #4A90E2;
 }
 
 @media (min-width: 992px) {
@@ -11384,13 +11384,23 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .navbar {
-  background-color: #4a90e2 !important; /* jaune en fond de nav */
+  background-color: #f4c542 !important; /* jaune en fond de nav */
 }
 
 footer.footer {
-  background-color: #4A90E2;
+  background-color: #f4c542;
 }
 
 .btn {
   background-color: #f4c542;
+}
+#submitButton {
+  background-color: #f4c542;
+}
+
+#mainNav .navbar-brand {
+  color: #fff !important;
+}
+#mainNav .navbar-brand:hover {
+  color: #4A90E2 !important;
 }
